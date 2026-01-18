@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Website">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Tybo Verslype</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2 class="hero-title">Welcome to My Portfolio</h2>
+            <p class="hero-subtitle">I am a Computer Science student at Ghent University</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <img src="assets/tybo2.png" alt="Profile Picture" class="profile-img">
+                <div class="about-text">
+                    <p>I am a Computer Science student at Ghent University, where I combine academic studies with a passion for hands-on development. I am an active member of Zeus WPI, contributing to various technical projects and the association's organizational growth. My focus is on merging strong technical skills with meaningful community involvement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="assets/image.png" alt="Project 1">
+                    <h3>Ypovoli</h3>
+                    <p>A submission platform for students to upload and manage their academic assignments. Built with a focus on user experience and accessibility, featuring secure file uploads, deadline tracking, and real-time submission status updates.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/SELab-2/UGent-7" class="btn-small">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/Ontwerp zonder titel (1).png" alt="Project 2">
+                    <h3>Slimste Student</h3>
+                    <p>SlimsteStudent is a web application designed to optimize student learning through a modern digital flashcard system. Developed with a focus on efficiency and user experience, the platform enables students to master complex academic materials using the proven method of active recall.</p>
+                    <div class="project-links">
+                        <a href="https://slimstestudent.zeus.gent/" class="btn-small">Live Demo</a>
+                        <a href="https://github.com/ZeusWPI/slimste_student" class="btn-small">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/Ontwerp zonder titel (2).png" alt="Project 3">
+                    <h3>Chess Fish</h3>
+                    <p>ChessFish is a high-performance chess engine developed in C++, designed for speed and tactical accuracy. The core of the engine is built on a Bitboard board representation, which maps the 64 squares of the chessboard to 64-bit integers. This allows the engine to use lightning-fast bitwise operations such as shifts and logical AND/OR to calculate legal moves, evaluate board occupancy, and detect pins or checks in a very low amount of CPU cycles.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/tyboro2002/chessFish5" class="btn-small">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Vue.js</li>
+                        <li>TypeScript</li>
+                        <li>Vite</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Databases</li>
+                        <li>APIs</li>
+                        <li>Django</li>
+                        <li>SQLite</li>
+                        <li>Postgress</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>Docker</li>
+                        <li>VS Code</li>
+                        <li>Linux</li>
+                        <li>Postman</li>
+                        <li>LaTeX</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Extra</h3>
+                    <ul>
+                        <li>Algorithms & Data Structures</li>
+                        <li>Design Patterns</li>
+                        <li>Canva</li>
+                        <li>Collaborative Development</li>
+                        <li>Project Management</li>
+                        <li>Mentorship</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>Bash</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>AI & Data Science</h3>
+                    <ul>
+                        <li>Machine Learning (Scikit-learn)</li>
+                        <li>Data Analysis (Pandas & NumPy)</li>
+                        <li>Big Data (Apache Spark)</li>
+                        <li>Deep Learning (PyTorch)</li>
+                        <li>Data Visualization (Matplotlib)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">I'd love to hear from you!</p>
+            <div class="contact-links">
+                <a href="mailto:verslypetybo@gmail.com" class="contact-btn">Email</a>
+                <a href="https://github.com/tyboro2002" class="contact-btn" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/tybo-verslype-a7415920a/" class="contact-btn" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Tybo Verslype. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
